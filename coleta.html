@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleta Seletiva - Projeto Sustentabilidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta de Coleta Seletiva</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="coleta.html">Coleta Seletiva</a></li>
+                <li><a href="pontos.html">Pontos de Coleta</a></li>
+                <li><a href="cadastro.html">Cadastro de Voluntários</a></li>
+                <li><a href="dicas.html">Dicas Sustentáveis</a></li>
+                <li><a href="ideias.html">Envie Suas Ideias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <h2>Digite sua cidade para saber sobre a coleta:</h2>
+        <form action="coleta.html" method="GET">
+            <input type="text" name="cidade" placeholder="Nome da Cidade" required>
+            <button type="submit">Consultar</button>
+        </form>
+
+        <div class="result">
+            <!-- Exemplo de resultado, que será substituído por conteúdo dinâmico -->
+            <h3>Resultados para [Cidade]</h3>
+            <p>Dias: Segunda, Quarta e Sexta</p>
+            <p>Horário: 8:00 - 12:00</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Projeto Sustentabilidade - ODS 11 e 12</p>
+    </footer>
+</body>
+</html>
