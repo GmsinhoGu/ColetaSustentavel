@@ -3,11 +3,12 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #e0f7fa, #ffffff);
     color: #333;
+    text-align: center; /* Centraliza o texto em todo o corpo */
 }
 
 .container {
@@ -20,7 +21,6 @@ header {
     background: #00796b;
     color: white;
     padding: 20px 0;
-    text-align: center;
 }
 
 header nav a {
@@ -28,11 +28,12 @@ header nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+    padding: 10px; /* Adiciona padding para melhor clique */
 }
 
 header nav a:hover {
-    color: #b2dfdb;
+    background-color: #004d40; /* Verde mais escuro ao passar o mouse */
 }
 
 main {
@@ -40,13 +41,12 @@ main {
 }
 
 .intro {
-    text-align: center;
     margin-bottom: 40px;
 }
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Centraliza os cartões */
     flex-wrap: wrap;
 }
 
